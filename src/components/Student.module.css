@@ -1,0 +1,78 @@
+
+.initial
+{
+  
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    justify-content: center;
+    justify-self: center;
+    
+}
+.intext
+{
+    position: relative;
+    display:flex;
+    justify-content: center;
+        margin-top:30px;
+    width:70%;
+    margin-left:17%;
+
+
+
+ 
+ 
+
+}
+.input
+{
+    outline:none;    
+   
+    box-shadow:1px 1px 2px rgba(165, 161, 226, 0.623);
+    margin-right:5px;
+    border:1px solid grey;
+    border-radius:6px;
+    width:70%;
+    
+}
+.input:focus
+{
+    box-shadow:3px 3px 5px rgba(165, 161, 226, 0.623);
+    animation:1sec ease-in-out;
+}
+.clickadd
+{
+    font-size: 15px;
+    margin-left:10px;
+    border:3px solid lightpink;
+    border-radius:10px;
+    color:black;
+    background-color:pink;
+    animation:0.3s ease-in-out;
+    outline:none;
+    box-shadow:3px 3px 4px rgba(224, 159, 221, 0.651);
+  
+}
+.clickadd:active
+{
+    background-color:greenyellow;
+    border-color:greenyellow;
+    transition: 1sec ease-in-out;
+    box-shadow:3px 3px 4px rgba(159, 224, 175, 0.651);
+
+}
+.com
+{position:absolute;
+    left:40%;
+    top:60px;
+    color:green;
+    justify-content: center;
+
+}
+.com h3
+{
+    font-size: 1em;
+}
+
