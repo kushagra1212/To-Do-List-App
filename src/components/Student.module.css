@@ -65,14 +65,14 @@
 }
 .com
 {position:absolute;
-    left:40%;
-    top:60px;
-    color:green;
+    left:50%;
+    top:55px;
+    color:rgb(193, 255, 22);
     justify-content: center;
-
+ 
 }
 .com h3
-{
-    font-size: 1em;
+{font-weight: 600;
+    font-size: 1.5em;
 }
 

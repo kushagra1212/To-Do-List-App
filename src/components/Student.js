@@ -52,7 +52,7 @@ function Student({setName,name,nameis,setNameDis,deleteit,checkedHandler,searchb
                                     return(
                                         <>
 
-                                        <List key={indi.id} checked={indi.checked} deleteit={deleteit} id={indi.id} indiname={indi.kName} checkedHandler={checkedHandler} checked={indi.checked} />
+                                        <List key={i} checked={indi.checked} deleteit={deleteit} id={indi.id} indiname={indi.kName} checkedHandler={checkedHandler}  />
                                         </>
                                         )
                                     }
@@ -66,7 +66,7 @@ function Student({setName,name,nameis,setNameDis,deleteit,checkedHandler,searchb
                                 {
                                     
                                     return(
-                                        <List key={indi.id} checked={indi.checked} deleteit={deleteit} id={indi.id} indiname={indi.kName} checkedHandler={checkedHandler} checked={indi.checked} />
+                                        <List key={i} checked={indi.checked} deleteit={deleteit} id={indi.id} indiname={indi.kName} checkedHandler={checkedHandler} />
                                         
                                         
                                         //  <h1 key={i}>  student : {n}</h1>
@@ -86,7 +86,7 @@ function Student({setName,name,nameis,setNameDis,deleteit,checkedHandler,searchb
                                     
                                     
                                     return(
-                                        <List key={indi.id} checked={indi.checked} deleteit={deleteit} id={indi.id} indiname={indi.kName} checkedHandler={checkedHandler} checked={indi.checked} />
+                                        <List key={i} checked={indi.checked} deleteit={deleteit} id={indi.id} indiname={indi.kName} checkedHandler={checkedHandler}  />
                                         
                                         
                                         //  <h1 key={i}>  student : {n}</h1>
@@ -100,6 +100,7 @@ function Student({setName,name,nameis,setNameDis,deleteit,checkedHandler,searchb
                                         return null;
                                     }
                                 }
+                                return null;
                         
                         })
 
@@ -136,6 +137,7 @@ function Student({setName,name,nameis,setNameDis,deleteit,checkedHandler,searchb
                                     //  <h1 key={i}>  student : {n}</h1>
                                     )
                                 }
+                                return null;
                                 
                                 
                             
@@ -184,7 +186,7 @@ function comhand(com,all)
         return(
             <div className={styles.com}>
              <h3>
-             Completed
+             <strong>Completed</strong>
              </h3>
             </div>
         )
@@ -193,7 +195,7 @@ function comhand(com,all)
         return (
             <div className={styles.com}>
                 <h3>
-                    All
+                    <strong>All</strong>
                 </h3>
             </div>
         )
@@ -203,7 +205,7 @@ function comhand(com,all)
         return(
             <div className={styles.com} >
                 <h3>
-                    Uncompleted
+                    <strong>Uncompleted</strong>
                 </h3>
             </div>
         )

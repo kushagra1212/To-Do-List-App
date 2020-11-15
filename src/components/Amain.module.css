@@ -11,9 +11,10 @@
     left:11%;
     margin:2%;
     outline:none;
+    height:30px;
     border:3px solid rgba(128, 128, 128, 0.644);
     border-radius:10px;
-    box-shadow:2px 4px 10px 10px rgba(173, 216, 230, 0.877);
+    box-shadow:2px 4px 2px rgba(173, 216, 230, 0.877);
 padding:2px;
 }
 .findInput:focus{

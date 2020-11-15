@@ -18,7 +18,7 @@ function List({ indiname,deleteit ,id,checkedHandler,checked}) {
              setSty({opacity:1});
          }
      
-        },[count])
+        },[count,checked])
     
     function justafun()
     {

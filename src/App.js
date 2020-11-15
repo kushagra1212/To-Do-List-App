@@ -75,19 +75,19 @@ class App extends Component{
                 <ul>
                     <li >
                         <button onClick={this.allHandler}>
-                            All
+                            <strong>All</strong>
                         </button>
                     </li>
 
                     <li>
                         <button onClick={this.comHandeler}>
-                            Completed
+                            <strong>Completed</strong>
                         </button>
                     </li>
                     
                     <li>
                         <button onClick={this.unComHandler}>
-                            Uncompleted
+                            <strong>Uncompleted</strong>
                         </button>
                     </li>
                 </ul>
